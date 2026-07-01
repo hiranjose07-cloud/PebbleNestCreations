@@ -539,6 +539,7 @@
 
              currentProductIndex = index;
              showProductDetail(product);
+             document.getElementById("productPopup").scrollIntoView({ behavior: "smooth", block: "start" });
          }
 
          document.addEventListener("click", function (event) {
