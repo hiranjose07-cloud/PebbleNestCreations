@@ -828,7 +828,7 @@ background: #fff4e2 !important;
   }
 
   .product-card {
-    border-radius: 22px;
+    border-radius: 22px; height: 100%;
   }
 
   .product-card img {
